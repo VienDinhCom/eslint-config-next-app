@@ -14,10 +14,10 @@ yarn add -D eslint-config-next-app
 
 ## Usage
 
-Create a file named `.eslintrc.json` with following contents in the root folder of your project:
+Create a file named `.eslintrc` with following contents in the root folder of your project:
 
 ```json
 {
-  "extends": "react-app"
+  "extends": "next-app"
 }
 ```
