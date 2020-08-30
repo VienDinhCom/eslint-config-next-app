@@ -1,7 +1,15 @@
 {
   "name": "eslint-config-next-app",
-  "version": "1.0.2",
+  "description": "ESLint configuration for Next.js",
+  "version": "1.0.3",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxvien/eslint-config-next-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxvien/eslint-config-next-app/issues"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "2.x",
     "@typescript-eslint/parser": "2.x",
