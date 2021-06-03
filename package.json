@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-next-app",
   "description": "ESLint configuration for Next.js",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -11,15 +11,17 @@
     "url": "https://github.com/maxvien/eslint-config-next-app/issues"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.x",
-    "@typescript-eslint/parser": "2.x",
-    "babel-eslint": "10.x",
-    "eslint": "6.x",
-    "eslint-config-react-app": "^5.2.1",
-    "eslint-plugin-flowtype": "4.x",
-    "eslint-plugin-import": "2.x",
-    "eslint-plugin-jsx-a11y": "6.x",
-    "eslint-plugin-react": "7.x",
-    "eslint-plugin-react-hooks": "2.x"
+    "@typescript-eslint/eslint-plugin": "^4.0.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "babel-eslint": "^10.0.0",
+    "eslint": "^7.5.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^24.0.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-testing-library": "^3.9.0"
   }
 }

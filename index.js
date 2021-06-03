@@ -1,6 +1,6 @@
 module.exports = {
-  extends: ['react-app'],
+  extends: ["react-app", "react-app/jest"],
   rules: {
-    'react/react-in-jsx-scope': 'off', // React is always in scope with Next
+    "react/react-in-jsx-scope": "off", // React is always in scope with Next
   },
 };
